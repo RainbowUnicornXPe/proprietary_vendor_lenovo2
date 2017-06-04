@@ -483,10 +483,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karateof_eeprom.so:system/vendor/lib/libmmcamera_imx219_karateof_eeprom.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karatepof_eeprom.so:system/vendor/lib/libmmcamera_imx219_karatepof_eeprom.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karatepqt_eeprom.so:system/vendor/lib/libmmcamera_imx219_karatepqt_eeprom.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karateqt_eeprom.so:system/vendor/lib/libmmcamera_imx219_karateqt_eeprom.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
