@@ -105,9 +105,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/lenovo/karate/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/lenovo/karate/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/lenovo/karate/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/lenovo/karate/proprietary/etc/firmware/qtc800s.bin:system/etc/firmware/qtc800s.bin \
     vendor/lenovo/karate/proprietary/etc/firmware/qtc800s.cfg:system/etc/firmware/qtc800s.cfg \
+    vendor/lenovo/karate/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/lenovo/karate/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lenovo/karate/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/lenovo/karate/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
@@ -130,6 +130,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/lenovo/karate/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/karate/proprietary/etc/sec_config:system/etc/sec_config \
+    vendor/lenovo/karate/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
+    vendor/lenovo/karate/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/lenovo/karate/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/lenovo/karate/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
     vendor/lenovo/karate/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
@@ -173,6 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lenovo/karate/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lenovo/karate/proprietary/vendor/bin/touch_fusion:system/vendor/bin/touch_fusion \
+    vendor/lenovo/karate/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/lenovo/karate/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/karate/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lenovo/karate/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -425,6 +428,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/lenovo/karate/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/lenovo/karate/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/lenovo/karate/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
     vendor/lenovo/karate/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
     vendor/lenovo/karate/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
@@ -450,7 +454,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/lenovo/karate/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
     vendor/lenovo/karate/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
-    vendor/lenovo/karate/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
@@ -483,11 +486,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karateof_eeprom.so:system/vendor/lib/libmmcamera_imx219_karateof_eeprom.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karatepof_eeprom.so:system/vendor/lib/libmmcamera_imx219_karatepof_eeprom.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karatepqt_eeprom.so:system/vendor/lib/libmmcamera_imx219_karatepqt_eeprom.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karateqt_eeprom.so:system/vendor/lib/libmmcamera_imx219_karateqt_eeprom.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
@@ -542,6 +545,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmm-qdcm-diag.so:system/vendor/lib/libmm-qdcm-diag.so \
@@ -587,10 +597,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/lenovo/karate/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/lenovo/karate/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
@@ -645,6 +655,36 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/lenovo/karate/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_bluetooth.so:system/vendor/lib/mmi_bluetooth.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_cpu.so:system/vendor/lib/mmi_cpu.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_finger_print.so:system/vendor/lib/mmi_finger_print.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_gps.so:system/vendor/lib/mmi_gps.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_headset.so:system/vendor/lib/mmi_headset.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_otg.so:system/vendor/lib/mmi_otg.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_sarsensor.so:system/vendor/lib/mmi_sarsensor.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_storage.so:system/vendor/lib/mmi_storage.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_touchext.so:system/vendor/lib/mmi_touchext.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
     vendor/lenovo/karate/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/lenovo/karate/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/lenovo/karate/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
