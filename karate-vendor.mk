@@ -207,15 +207,18 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/lib/hw/displaypanel.default.so:system/lib/hw/displaypanel.default.so \
     vendor/lenovo/karate/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/lenovo/karate/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
-    vendor/lenovo/karate/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/lenovo/karate/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/lenovo/karate/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/lenovo/karate/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lenovo/karate/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/lenovo/karate/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+    vendor/lenovo/karate/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
+    vendor/lenovo/karate/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
+    vendor/lenovo/karate/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/lenovo/karate/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/lenovo/karate/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/lenovo/karate/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lenovo/karate/proprietary/lib/libivc_smartengine.so:system/lib/libivc_smartengine.so \
     vendor/lenovo/karate/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/karate/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lenovo/karate/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -227,6 +230,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/karate/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/lenovo/karate/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lenovo/karate/proprietary/lib/libsensor_cal.so:system/lib/libsensor_cal.so \
     vendor/lenovo/karate/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/karate/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/lenovo/karate/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
@@ -271,11 +275,16 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/lenovo/karate/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
     vendor/lenovo/karate/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/lenovo/karate/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libcamera_bm_algo.so:system/vendor/lib/libcamera_bm_algo.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
@@ -619,6 +628,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
+    vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_ov5695.so:system/vendor/lib/libmmcamera_ov5695.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
