@@ -206,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/lenovo/karate/proprietary/lib/hw/displaypanel.default.so:system/lib/hw/displaypanel.default.so \
     vendor/lenovo/karate/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
-    vendor/lenovo/karate/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
     vendor/lenovo/karate/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/lenovo/karate/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/lenovo/karate/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
