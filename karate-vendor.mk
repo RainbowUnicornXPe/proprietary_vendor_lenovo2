@@ -804,21 +804,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libMpeg4SwEncoder \
     libtime_genoff \
-    QtiTelephonyService \
-    TimeService \
-    datastatusnotification \
-    fastdormancy \
-    shutdownlistener \
-    CNEService \
-    QtiTetherService \
-    com.qualcomm.location \
-    dpmserviceapp \
-    ims \
-    qcrilmsgtunnel \
-    colorservice \
-    imssettings \
-    com.qti.location.sdk \
-    imscmlibrary \
-    qcrilhook \
     qdcm_calib_data_ili7807d_1080p_video_YAS \
     qdcm_calib_data_otm1901a_1080p_video_TianMa
